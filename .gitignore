@@ -1,0 +1,23 @@
+# Archivos de sistema (Windows / MacOS)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Archivos temporales / backups
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos de OneDrive (por si trabajás desde ahí)
+*.lnk
+~$*
+
+# Archivos de sistema ocultos
+*.orig
+
+# Archivos de subida automática que no querés subir
+node_modules/
