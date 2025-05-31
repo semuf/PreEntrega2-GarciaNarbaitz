@@ -1,12 +1,18 @@
-@use 'utils/variables';
-@use 'utils/mixins';
+// Utils
+@import 'utils/variables';
+@import 'utils/mixins';
 
-@use 'base/reset';
-@use 'base/typography';
+// Base
+@import 'base/reset';
+@import 'base/typography';
 
-@use 'layout/header';
-@use 'layout/footer';
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
 
-@use 'components/buttons';
+// Components
+@import 'components/buttons';
+@import 'components/gallery';
 
-@use 'pages/home';
+// Pages
+@import 'pages/home';

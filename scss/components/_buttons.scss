@@ -1,0 +1,21 @@
+.btn-principal {
+  @include boton($color-principal);
+  font-family: $fuente-secundaria;
+  font-size: $texto-base;
+
+  @include respond-to(sm) {
+    font-size: $texto-chico;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.btn-secundario {
+  @include boton($color-secundario);
+  font-family: $fuente-secundaria;
+  font-size: $texto-base;
+
+  @include respond-to(sm) {
+    font-size: $texto-chico;
+    padding: 0.5rem 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+footer {
+  background-color: $color-negro;
+  color: $color-blanco;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: $texto-chico;
+  font-family: $fuente-principal;
+
+  p {
+    margin: 0;
+  }
+}

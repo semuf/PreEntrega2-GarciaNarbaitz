@@ -1,0 +1,49 @@
+.seccion-destacada {
+  background-color: $color-blanco;
+  padding: 4rem 0;
+
+   .container {
+    display: flex;
+    flex-wrap: nowrap; // 
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .texto {
+    flex: 1 1 50%;
+    
+    h2 {
+      font-family: $fuente-secundaria;
+      font-size: $titulo-mediano;
+      color: $color-principal;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-family: $fuente-principal;
+      font-size: $texto-base;
+      color: $color-texto;
+    }
+  }
+
+  .imagen {
+  flex: 1 1 50%;
+
+  img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+  @include respond-to(sm) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+}
+}
